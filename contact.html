@@ -10,11 +10,13 @@
 	<!-- Bootstrap 4.5 CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/style.css">-->
+	<link rel="stylesheet" href="contact.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?
 		family=Montserrat:300,400,500,600,700&display=swap" 
 		rel="stylesheet">
+	
 </head>
 <body>
 
@@ -56,69 +58,70 @@
 	<!-- End Navigation -->
 
 	<!-- Contact Form -->
-	<section
-		<div class="container">
-			<div class="contactinfo">
+	<section class="responsive">
+		<div class="container" class="responsive">
+			<div class="contactinfo" class="responsive">
 				<div>
 					<h2>Contact Info</h2>
-				</div>
-				<div class="contactForm">
+					<ul class="info">
+						<li>
+							<span><img src="img/icons8-email-96.png"></span>
+							<span>Selina@SelinaRoth.com</span>
+						</li>
+						<li>
+							<span><img src="img/icons8-phone-50.png"></span>
+							<span>609-798-1669</span>
+						</li>
+					</ul>
+					<div class="col-md-11 address text-dark">
+						<h5>Available Hours:</h5>
+						<p>
+							Mon - Fri: 9am to 6pm (EST)
+						</p>
+					</div>
+				</div class="row justify-content-center pt-12">
+					<ul class="sci">
+						<li><a href="https://www.linkedin.com/in/selinarothweiler/" target="_blank"><img src="img/icons8-linkedin-64.png"></a></li>
+						<li><a href="https://github.com/SelinaRothweiler" target="_blank"><img src="img/icons8-github-64.png"></a></li>
+					</ul>
+				
+			</div>
+			<div class="contactForm" class="responsive">
+				<form action="mailto:selina@selinaroth.com" method="post" enctype="text/plain">
+					
 					<h2>Send a Message</h2>
 					<div class="formBox">
 						<div class="inputBox w50">
-							<input type="text" name="" required>
+							<input type="text" name="user" required>
 							<span>First Name</span>
 						</div>
 						<div class="inputBox w50">
-							<input type="text" name="" required>
+							<input type="text" name="user" required>
 							<span>Last Name</span>
 						</div>
 						<div class="inputBox w50">
-							<input type="text" name="" required>
+							<input type="mail" name="mail" required>
 							<span>Email Address</span>
 						</div>
 						<div class="inputBox w50">
-							<input type="text" name="" required>
+							<input type="text" name="number" required>
 							<span>Cell Number</span>
 						</div>
 						<div class="inputBox w100">
 							<textarea name="" required></textarea>
 							<span>Write your message here.....</span>
 						</div>
-						<div class="inputBox w100 pb-4">
-							<input type="submit" value="Send">
+						<div class="status">
+
+						</div>
+						<div class="inputBox w100">
+							<input type="submit" class="submit" value="Send">
 						</div>
 					</div>
-				</div>
+				</form>
 			</div>
 		</div>
 	</section>
-
-	<!-- Availability -->
-	<!--<section class="form-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-				</div>
-				<div class="col-md-6 address">-->
-					<!-- <h5>Call Me</h5>-->
-					<!--<p><a href="tel:+16097981669"><i class="fas fa-phone"></i> +(609) 798-1669 </a><br>
-					</p>
-					<h5>Email:</h5>
-					<p>
-						<a href="mailto:selina@selinaroth.com"><i class="fas fa-envelope"></i>
-						Selina@SelinaRoth.com</a><br>
-						<a href="https://selinaroth.com"><i class="fas fa-globe"></i>
-						www.SelinaRoth.com</a>
-					</p>
-					<h5>Available Hours:</h5>
-					<p>
-						Mon - Fri: 9am to 6pm(EST)
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>-->
 
 	<!-- Map -->
 	<!--<section>
@@ -138,10 +141,8 @@
     <div class="jumbotron py-5 mb-0">
         <div class="container">
             <div class="row justify-content-center">
-				<p class="text-dark"> "Success is not final, failure is not final:</p>
-				<p class="text-dark"> it is the COURAGE TO CONTINUE THAT COUNTS.</p>
-				<p class="text-dark">Winston Churchill</p>
-            </div>
+				<p align="center" class="text-dark">"Success is not final, failure is not final:<br />it is the COURAGE TO CONTINUE THAT COUNTS.<br />Winston Churchill</p>
+			</div>
         </div>
     </div>
 
@@ -181,6 +182,8 @@
 
     <!-- jQuery -->
 	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+	<script src="./main.js"></script>
 	<!-- Bootstrap 4.5 JS -->
 	<script src="js/bootstrap.min.js"></script>
 	<!-- Popper JS -->
