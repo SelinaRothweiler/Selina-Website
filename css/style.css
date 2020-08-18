@@ -17,7 +17,6 @@ body {
   font-size: 1.2rem;
 }
 
-
 /*============= NAVIGATION =============*/
 
 .navbar-brand img {
@@ -34,7 +33,7 @@ body {
   padding: .5rem;
 }
 .nav-link {
-  color: #5b5555!important;
+  color: #494545!important;
 }
 .nav-link.active,
 .nav-link:hover {
@@ -130,7 +129,7 @@ body {
 /*-- End Background Images --*/
 
 /* -- About Page --*/
-/*-- Lightbox Images --*/
+/*-- Responsive Image Gallery --*/
 .row {
   display: flex;
   flex-wrap: wrap;
