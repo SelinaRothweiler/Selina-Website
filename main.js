@@ -1,8 +1,9 @@
 const { default: Axios } = require("axios");
 const { json } = require("body-parser");
 
-class myForm {
-    const (_props) {
+class contactForm {
+    constructor (_props) {
+        super (_props);
         this.state = {
             name:'',
             number:'',

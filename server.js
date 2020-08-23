@@ -5,21 +5,22 @@ const app = express()
     app.use(bodyParser.json())
     app.use(bodyParser.urlencoded({ extended: false}))
     app.post('/api/email',(req,_res)=> {
-    nodemailer.createTestAccount((_err,account)=> {
+    nodemailer.createTestAccount((_err,_account)=> {
         const htmlEmail =`<h2>Contact Me</h2>
         <div>
             <input First Name: ${req.body.name}>
             <input Last Name: ${req.body.name}>
-            <input Phone Number: ${req.body.number}>
+            <input Phone Number: ${req.body.phone}>
             <input Email Address: ${req.body.email}>
             <input Subject: ${req.body.subject}>
             <textarea ${req.body.message}</textarea>
         </div>
         `
+
         let transporter = nodemailer.createTransport({
             service: 'inmotionhosting',
             auth: {
-                user: 'selina@selinaroth.com',
+                user: '',
                 pass: ''
             }
         })  

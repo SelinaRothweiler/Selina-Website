@@ -177,8 +177,21 @@ instead of next to each other */
 /*============= FOOTER =============*/
 
 footer {
-  background-color: #aca8a5;
-  padding: 1rem 2rem 3rem;
+  background-color: #928f8d;
+  color: d5d5d5;
+  padding: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer h5 {
+  color: #fffbfb;
+}
+footer a {
+  color: #d5d5d5;
 }
 footer img {
   height: 12.5rem;
@@ -194,10 +207,11 @@ ul.social {
   display: flex;
   max-width: 16rem;
   margin: 0 auto;
-  padding: 0;
+  padding: 0rem;
 }
 ul.social li {
   margin: 0 auto;
+  padding-top: 3rem;
 }
 footer .svg-inline--fa {
   font-size: 2.5rem;
