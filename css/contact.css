@@ -53,7 +53,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 100%;
-    width: 100% ;
+    width: 100%;
     padding-bottom: 2%;
   }
 
@@ -78,40 +78,13 @@ body {
     color: #fff;
     letter-spacing:3px;
   }
-  /*.contact-form i.fa {
-    /*font-size: 22px;*/
-    /*display: relative;
-    padding-right: 50%;
-    padding-left: 5%;
-    background-color: none;
-    border-radius: 100%;
-    margin: 2%;
-    cursor: pointer;
-    border:2px solid rgb(190, 190, 190);
-    color: rgb(190, 190, 190);
-  }
-  .contact-form i.fa.span {
-    display: flex;
-    padding-left: 15%;
-    font-size: 18px;
-  }
-  .contact-form .svg-inline--fa {
-    font-size: 2rem;
-  }
-  .contact-form .svg-inline--fa:hover{
-    color: #68a0d2;
-  }*/
+
   .contactForm{
     display: grid;
     margin-left: 20%;
     grid-template-columns: auto auto;
   }
-  .form-info{
-    font-size: 16px;
-    font-style: italic;
-    color: white;
-    letter-spacing: 2px;
-  }
+ 
   input{
       padding: 10px;
       margin:10px;
@@ -139,9 +112,9 @@ body {
      color: white;
   }
   .submit{
-    width: 40%;
+    width: 50%;
     background: none;
-    padding: 4px;
+    padding: 5px;
     outline: none;
     font-size: 13px;
     font-weight: bold;
@@ -165,7 +138,7 @@ body {
 
 footer {
   background-color: #928f8d;
-  color: d5d5d5;
+  color: #d5d5d5;
   padding: 2rem;
 }
 hr.light {
