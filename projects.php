@@ -32,7 +32,7 @@
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-				<a href="index.html" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
+				<a href="index.php" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
 					alt="Logo" title="logo"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -42,13 +42,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="projects.html" class="nav-link active">Projects</a></li>
-					<li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
-					<li class="nav-item"><a href="phone.html" class="nav-link">Phone</a></li>
-                    <li class="nav-item"><a href="tablet.html" class="nav-link">Tablet</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Me</a></li>
+					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="projects.php" class="nav-link active">Projects</a></li>
+					<li class="nav-item"><a href="resume.php" class="nav-link">Resume</a></li>					
+					<li class="nav-item"><a href="contact.php" class="nav-link">Contact Me</a></li>
 				</ul>
 
 			</div>
@@ -125,7 +123,7 @@
 						•	Footer & Socket HTML & CSS<br />			
 						•	Responsive Media Query CSS<br />
 						•	Responsive image gallery<br />
-						•	Responsive Contact Form with floating placeholder and email validation.
+						•	Responsive Contact Form in HTML/CSS/PHP with email validation, Google Recaptcha, and form submission, that utilizes an API and the if else statement.
 				</p>
 			</div>
 
@@ -147,7 +145,7 @@
     <div class="jumbotron py-5 mb-0">
         <div class="container">
             <div class="row justify-content-center">
-                <a href="contact.html" class="btn btn-primary btn-lg">Contact Me Today</a>
+                <a href="contact.php" class="btn btn-primary btn-lg">Contact Me Today</a>
             </div>
         </div>
     </div>
@@ -156,24 +154,43 @@
 
 
     <!-- Start Footer -->
-    <footer>
-        <div class="container">
-            <div class="row text-light text-center py-4 justify-content-center">
-            
-                <div class="col-sm-10 col-md-8 col-lg-6">
-                <img src="img/Logo-SelinaRoth-Transparent.png" alt="">
-                <p>All about software and web development.</p>
-                <ul class="social pt-3">
-                    <li><a href="https://www.linkedin.com/in/selinarothweiler/"
-                        target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://github.com/SelinaRothweiler"
-                        target="_blank"><i class="fab fa-github-square"></i></a></li>
-                </ul>
-                </div>
-
-            </div>
-        </div>
-    </footer>
+	 <footer>
+		<div class="container-fluid padding">
+			<div class="row text-center">
+				<div class="col-md-4">
+					<img src="img/Logo-Transparent-Bigger.png">
+					<p>All about software and web development.</p>
+					<hr class="light">
+					<p>(609) 377-0520</p>
+					<p>Selina@SelinaRoth.com</p>
+				</div>
+				<div class="col-md-4 mt-5">
+					<hr class="light">
+					<h5>My Hours</h5>
+					<hr class="light">
+					<p>Monday to Friday: 9am - 5pm</p>
+					<p>Saturday: By Appointment</p>
+					<p>Sunday: Closed</p>
+					<ul class="social pt-3">
+						<li><a href="https://www.linkedin.com/in/selinarothweiler/"
+							target="_blank"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/SelinaRothweiler"
+							target="_blank"><i class="fab fa-github-square"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 mt-5">
+					<hr class="light">
+					<h5>Service Areas</h5>
+					<hr class="light">
+					<p>Remote work covers the entire U.S.</p>
+					<p>Online video meetings and content</p>
+					<p>sharing is readily available on several</p>
+					<p>platforms; that run across mobile devices,</p>
+					<p>and desktops. A WiFi connection is all we need.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 
     <!-- End Footer -->
 

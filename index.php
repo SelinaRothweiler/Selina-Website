@@ -28,11 +28,10 @@
 	</div>
 	<!-- End Top Bar -->
 
-
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-				<a href="index.html" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
+				<a href="index.php" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
 					alt="Logo" title="logo"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -42,13 +41,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
-					<li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
-					<li class="nav-item"><a href="phone.html" class="nav-link">Phone</a></li>
-                    <li class="nav-item"><a href="tablet.html" class="nav-link">Tablet</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link">Contact Me</a></li>
+					<li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="projects.php" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="resume.php" class="nav-link">Resume</a></li>
+					<li class="nav-item"><a href="contact.php" class="nav-link">Contact Me</a></li>
 				</ul>
 
 			</div>
@@ -75,8 +72,8 @@
 								<h1>NOT Harder!</h1>
 								<div class="border-top border-primary w-50 mx-auto my-3"></div>
 								<h3 class="pb-3">Software & Web Development</h3>
-								<a href="resume.html" class="btn btn-danger btn-lg mr-2">View Resume</a>
-								<a href="projects.html" class="btn btn-primary btn-lg ml-2">View Projects</a>
+								<a href="resume.php" class="btn btn-danger btn-lg mr-2">View Resume</a>
+								<a href="projects.php" class="btn btn-primary btn-lg ml-2">View Projects</a>
 							</div>
 						</div>
 					</div>
@@ -90,7 +87,7 @@
 						<div class="row justify-content-end text-right">
 							<div class="col-4 bg-custom d-none d-md-block py-3 px-0 pr-3">
 								<p class="lead pb-3">A MOBILE FRIENDLY HTML & CSS WEBSITE DESIGN.</p>
-								<a href="phone.html" class="btn btn-danger btn-lg">See Phone</a>
+								<a href="contact.php" class="btn btn-danger btn-lg">Contact Me</a>
 							</div>
 						</div>
 					</div>
@@ -105,7 +102,7 @@
 							<div class="col-6 bg-custom d-none d-md-block py-3 px-0 pl-3">
 								<h3 class="pb-3">Built For Tablets</h3>
 								<p class="lead">THE BEST WEBSITES CAN BE SEEN JUST AS WELL ON ALL DEVICES</p>
-								<a href="tablet.html" class="btn btn-primary btn-lg">See Tablet</a>
+								<a href="contact.php" class="btn btn-primary btn-lg">Contact Me</a>
 							</div>
 						</div>
 					</div>
@@ -149,7 +146,7 @@
 					and I love working with others. I simply love what I do, 
 					it's like gazing at the amazing beauty of the Rocky Mountains
 					or watching the sunset over the ocean.
-					<a href="about.html" class="btn btn-outline-dark btn-md">My Story</a>
+					<a href="about.php" class="btn btn-outline-dark btn-md">My Story</a>
 				</p>
 			</div>
 
@@ -158,7 +155,7 @@
 				<h4 class="my-4">"Exceptional Work"</h4>
 				<p>In anything I do I strive to do my absolute best. It is my top
 					priority to focus on the needs of the project and to meet deadlines.
-					<a href="resume.html" class="btn btn-outline-dark btn-md">Resume</a>
+					<a href="resume.php" class="btn btn-outline-dark btn-md">Resume</a>
 				</p>
 			</div>
 
@@ -167,7 +164,7 @@
 				<h4 class="my-4">"My Programming History"</h4>
 				<p>Get to know what projects I've worked on. This website is 
 					a project I had fun creating.
-					<a href="projects.html" class="btn btn-outline-dark btn-md">Projects</a>
+					<a href="projects.php" class="btn btn-outline-dark btn-md">Projects</a>
 				</p>
 			</div>
 
@@ -244,7 +241,7 @@
 				<p class="mb-4">I hope you like my website. I'm happy to speak
 					with you and answer any questions you have concerning
 					my site and any of the projects I've worked on thus far.</p>
-				<a href="contact.html" target="_blank" class="btn
+				<a href="contact.php" target="_blank" class="btn
 				 btn-outline-dark btn-lg">Contact Me</a>
 			</div>
 
@@ -267,7 +264,7 @@
 				</div>
 
 				<div class="col-md-5 col-lg-4 col-xl-3 pt-3 pt-md-0">
-					<a href="contact.html" class="btn btn-primary btn-lg">Contact Me Today</a>
+					<a href="contact.php" class="btn btn-primary btn-lg">Contact Me Today</a>
 				</div>
 
 			</div>

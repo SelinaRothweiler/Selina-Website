@@ -46,8 +46,7 @@ body {
     margin: auto;
     overflow: hidden;
   }
-
-
+  
   #contact-section{
     background: linear-gradient(rgba(56, 40, 40, 0.5),rgba(0,0,0,0.8)),url(../img/carousel/4.jpg);
     background-size: cover;
@@ -60,7 +59,6 @@ body {
   #contact-section .container h2{
     text-align: center;
     text-decoration: underline;
-    /* text-decoration-color:red; */
     text-underline-position: under;
     color: rgb(238, 235, 235);
     padding-top: 5%;
@@ -111,6 +109,12 @@ body {
   textarea::placeholder{
      color: white;
   }
+  .g-recaptcha{
+    width: 50%;
+    padding: 5px;
+    margin-left: 1%;
+    margin-bottom: 10px;
+  }
   .submit{
     width: 50%;
     background: none;
@@ -123,7 +127,7 @@ body {
     text-align: center;
     cursor: pointer;
     letter-spacing: 2px;
-    margin-left: 3%;
+    margin-left: 8%;
     border:2px solid rgb(190, 190, 190);
     color: rgb(190, 190, 190);
   }
@@ -132,8 +136,7 @@ body {
     border: 1px solid #fff;
     color: #68a0d2;
   }
-
-
+  
 /*============= FOOTER =============*/
 
 footer {

@@ -173,6 +173,160 @@ instead of next to each other */
   }
 }
 
+/*-- Resume Page --*/
+/*-- Resume Left --*/
+.resume-section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.resume-section {
+  background: #ffebcd;
+  font-size: 14px;
+  line-height: 22px;
+  color: #272626;
+}
+.border-resume {
+  border-top: 3px solid #f3ca8c;
+}
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.semi_bold {
+  font-weight: 500;
+  font-size: 16px;
+}
+.resume {
+  width: 2000px;
+  height: auto;
+  display: flex;
+  margin: 30px auto;
+}
+.resume .resume_left {
+  width: 325px;
+  background: rgb(250, 74, 191);
+}
+.resume .resume_left .resume_profile {
+  width: 100%;
+  height: 500px;
+}
+.resume .resume_left .resume_profile img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.resume .resume_left .resume_content {
+  padding: 0px 0px;
+}
+.resume .title {
+  margin-bottom: 20px;
+}
+.resume .resume_left .bold {
+  color: #fff;
+  margin-top: 3px;
+}
+.resume .resume_left .regular {
+  color: #181616;
+}
+/*.resume-section .resume .resume_left .resume_items .resume_info {
+  padding: 25px 0;
+  border-top: 3px solid #fad9a7;
+}
+.resume-section .resume .resume_left .resume_items .resume_info:last-child {
+  border-bottom: 0px;
+}*/
+.resume-section .resume .resume_left ul li {
+  display: flex;
+  align-items: center!important;
+  margin-bottom: 10px;
+}
+.resume-section .butn-primary {
+  background-color: #fdd08b;
+  border: .05rem solid #fdd08b;
+}
+.resume-section .butn-primary:hover,
+.butn-primary:focus {
+  background-color: #f5abd6!important;
+  border: .05rem solid #f5abd6!important;
+}
+.resume .resume_left ul li:last-child {
+  margin-bottom: 0;
+}
+.resume .resume_left ul li .icon {
+  /*width: 35px;
+  height: 35px;
+  background: #fff;*/
+  color: darkviolet;
+  /*border-radius: 50%;*/
+  margin-right: 20px;
+  margin-left: 0;
+  font-size: 20px;
+  position: relative;
+}
+.resume-section .resume .icon i {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%,-50%);
+}
+.resume-section .resume .resume_left ul li .data {
+  color: #0a0a0a;
+  margin-left: 2px;
+}
+.resume .resume_left .resume_skills ul li {
+  color: #0a0a0a;
+  justify-content: space-between;
+}
+.resume .resume_left .resume_skills ul li .skill_name {
+  width: 25%;
+}
+.resume .resume_left .resume_skills ul li .skill_progress {
+  width: 50%;
+  margin: 0, 5px;
+  height: 5px;
+  background: #009fd9;
+  position: relative;
+}
+.resume .resume_left .resume_skills ul li .skill_per {
+  width: 15%;
+}
+.resume .resume_left .resume_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+/* Resume Right */
+
+.resume .resume_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+.resume .resume_right .bold {
+  color: #0bb5f4;
+}
+.resume .resume_right .resume_edu ul,
+.resume .resume_right .resume_affil ul {
+  padding-left: 40px;
+  overflow: hidden;
+}
+.resume .resume_right ul li {
+  position: relative;
+}
+.resume .resume_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+
 
 /*============= FOOTER =============*/
 
@@ -256,8 +410,6 @@ footer .svg-inline--fa:hover {
     font-size: .95rem;
   }
 }
-
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 

@@ -16,8 +16,8 @@
 	<link href="https://fonts.googleapis.com/css?
 		family=Montserrat:300,400,500,600,700&display=swap" 
 		rel="stylesheet">
-	
 </head>
+
 <body>
 
 	<!-- Top Bar -->
@@ -34,7 +34,7 @@
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-				<a href="index.html" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
+				<a href="index.php" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
 					alt="Logo" title="logo"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -44,35 +44,54 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
-					<li class="nav-item"><a href="resume.html" class="nav-link">Resume</a></li>
-					<li class="nav-item"><a href="phone.html" class="nav-link">Phone</a></li>
-                    <li class="nav-item"><a href="tablet.html" class="nav-link">Tablet</a></li>
-					<li class="nav-item"><a href="contact.html" class="nav-link active">Contact Me</a></li>
+					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="projects.php" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="resume.php" class="nav-link">Resume</a></li>					
+					<li class="nav-item"><a href="contact.php" class="nav-link active">Contact Me</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
 	<!-- End Navigation -->
-
+	
 	<!-- Contact Form -->
 	<section id="contact-section">
+
 		<div class = "container">
-			<h2>Contact Me</h2>			
-			<p>Use the contact form below and I will respond promptly.</p>		
-			<div class="contactForm">
-				<form action="send-mail.php" method="POST" enctype="multipart/form-data">
+			<h2>Contact Me</h2>
+			<p>Use the contact form below and I will respond promptly.</p>
+			<div class="contactForm">					
+				<form action="send-mail.php" method="POST" onsubmit="return submitUserForm();" enctype="multipart/form-data">
+					<!-- ReCAPTCHA -->
+					<script src="https://www.google.com/recaptcha/api.js?onload=recaptchaRender" async defer></script>
+
 					<input name="name_first" type="text" placeholder="First Name: " required>
 					<input name="name_last" type="text" placeholder="Last Name: " required>
 					<input name="phone" type="tel" placeholder="Phone Number: " required>
 					<input name="email" type="email" placeholder="Email Address: " required>
 					<input name="subject" type="text" placeholder="Subject: " required>
 					<textarea name="message" id="message" placeholder="Message " rows="5" required></textarea>
-					<div class="status"></div>
+					<div class="g-recaptcha" data-sitekey="6Le-O8MZAAAAAG7LaBAqNsoMTd9977CTtBsamdT2" data-callback="verifyCaptcha"></div>
+					<div id="g-recaptcha-error"></div>
 					<button type="submit" value="submit" class="submit">Send Message</button>
-				</form>				
+				</form>
+				<script>				 
+				
+				function submitUserForm() {
+					var response = grecaptcha.getResponse();
+					if(response.length == 0) {
+						document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+						return false;
+					}
+					else
+					return true;
+				}
+
+				function verifyCaptcha() {
+					document.getElementById('g-recaptcha-error').innerHTML = '';
+				}
+				</script>
 			</div>
 		</div>
 	</section>
@@ -171,6 +190,5 @@
     </script>-->
     <!-- End Script Source Files -->
 	
-
 </body>
 </html>
