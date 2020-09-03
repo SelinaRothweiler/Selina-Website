@@ -303,11 +303,17 @@
 					<hr class="light">
 					<h5>Service Areas</h5>
 					<hr class="light">
-					<p>Remote work covers the entire U.S.</p>
-					<p>Online video meetings and content</p>
-					<p>sharing is readily available on several</p>
-					<p>platforms; that run across mobile devices,</p>
-					<p>and desktops. A WiFi connection is all we need.</p>
+					<p class="pl-2 pr-2">Remote work covers the U.S.<br />
+					Online video meetings and content
+					sharing is readily available on several
+					platforms; that run across mobile devices,
+                    and desktops. A WiFi connection is all we need.<br />
+                    We will accomodate all clients who wish to have 
+                    a face-to-face meeting. During this 
+                    health crisis we will take all safety precations 
+                    and abide by all safety procedures; to make sure the 
+                    well being of everyone is safeguarded.
+                    </p>			
 				</div>
 			</div>
 		</div>

@@ -95,8 +95,8 @@
             dating profile. But all funnyness aside, I believe I am someone you will want on your team. In a nutshell 
             I am someone you can rely on to complete a job, an assignment or project; integrity I value. There's no second 
             guessing with me. With integrity comes trust and trust comes success; not only for me but for you. 
-            I belive in working smart not hard, constantly learning for things rarely ever stay the same (change is 
-            inevitable, especially with programming, and it is very important to stay up to date). Over the next 6 months 
+            I believe in working smart not hard, constantly learning for things rarely ever stay the same (in programming change  
+            is inevitable so it is very important to stay up to date). Over the next 6 months 
             to a year I will be getting Certified for Python, React, Golang, Kotlin, Perl, Scala, Ruby, Rust and PHP. I 
             will also acquire my Certification for Scrum Master. I believe in setting goals, staying committed and 
             achieving my goals. I am very honest and people know not to ask me questions if they don't want the truth. I 
@@ -148,12 +148,18 @@
 				<div class="col-md-4 mt-5">
 					<hr class="light">
 					<h5>Service Areas</h5>
-					<hr class="light">
-					<p>Remote work covers the entire U.S.</p>
-					<p>Online video meetings and content</p>
-					<p>sharing is readily available on several</p>
-					<p>platforms; that run across mobile devices,</p>
-					<p>and desktops. A WiFi connection is all we need.</p>
+                    <hr class="light">
+                    <p class="pl-2 pr-2">Remote work covers the U.S.<br />
+					Online video meetings and content
+					sharing is readily available on several
+					platforms; that run across mobile devices,
+                    and desktops. A WiFi connection is all we need.<br />
+                    We will accomodate all clients who wish to have 
+                    a face-to-face meeting. During this 
+                    health crisis we will take all safety precations 
+                    and abide by all safety procedures; to make sure the 
+                    well being of everyone is safeguarded.
+                    </p>			
 				</div>
 			</div>
 		</div>

@@ -55,51 +55,52 @@
 
 	<!-- Main Page Heading -->
 	<div class="col-12 text-center mt-5">
-		<h1 class="text-dark text-center pt-3">MY RESUME</h1>
+		<h1 class="text-bold text-center pt-3">MY RESUME</h1>
 		<div class="border-top border-primary w-25 mx-auto my-3"></div>
 		<p class="lead"></p>
 	</div>
+</body>
 
+<body class="body2">
 	<section class="resume-section">
 		<div class="resume">
 			<div class="resume_left">
 				<div class="resume_profile">
-					<img src="img/Selina1.jpg" class="img-fluid" alt="_profile_pic">
+					<img src="img/Selina1.jpg" alt="profile_pic">
 				</div>
 				<div class="resume_content">
 					<div class="_resume_item resume_info">
 						<div class="title">
-							<p class="text-center bold">Selina Rothweiler</p>
+							<p class="text-center bold">selina rothweiler</p>
 							<p class="text-center regular">Software & Web Development</p>
 						</div>
+						<ul>
+							<li>
+								<div class="icon"><i class="fas fa-map-marked-alt"></i></div>
+								<div class="data">
+									Southern NJ & Tampa, FL
+								</div>
+							</li>
+							<li>
+								<div class="icon"><i class="fas fa-phone-square"
+									aria-hidden="true"></i></div>
+								<div class="data">
+									(609) 377-0520
+								</div>
+							</li>
+							<li>
+								<div class="icon"><i class="fas fa-envelope"
+									aria-hidden="true"></i></div>
+								<div class="data">
+									<a href="contact.php" class="text-center btn btn-secondary btn-md">Message Me</a>
+								</div>
+							</li>
+						</ul>
 					</div>
-					<ul>
-						<li>
-							<div class="icon"><i class="fas fa-map-marked-alt" 
-							aria-hidden="true"></i></div>
-							<div class="data">
-								Southern NJ & Tampa, FL
-							</div>
-						</li>
-						<li>
-							<div class="icon"><i class="fas fa-phone-square"
-								aria-hidden="true"></i></div>
-							<div class="data">
-								(609) 377-0520
-							</div>
-						</li>
-						<li>
-							<div class="icon"><i class="fas fa-envelope"
-								aria-hidden="true"></i></div>
-							<div class="data">
-								<p href="contact.php" class="text-center butn butn-primary btn-sm">Message Me</p>
-							</div>
-						</li>
-					</ul>
 					<div class="resume_item resume_skills">
 						<div class="title">
-							<div class="border-top border-resume w-25 mx-auto my-3"></div>
-							<p class="text-center bold">Language's</p>
+							<div class="border-top border-resume mx-auto my-3"></div>
+							<p class="bold">language's</p>
 						</div>
 						<ul>
 							<li>
@@ -167,7 +168,8 @@
 							</li>
 						</ul>
 						<div class="title">
-							<p class="text-center bold">Proficiencies</p>
+						<div class="border-top border-resume mx-auto my-3"></div>
+							<p class="bold">Proficiencies</p>
 						</div>
 						<ul>
 							<li>
@@ -197,7 +199,8 @@
 							</li>
 						</ul>
 						<div class="title">
-							<p class="text-center bold">Software</p>
+						<div class="border-top border-resume mx-auto my-3"></div>
+							<p class="bold">Software</p>
 						</div>
 						<ul>
 							<li>
@@ -215,8 +218,7 @@
 					</div>
 				</div>
 			</div>
-
-			</div class="resume_right">
+			<div class="resume_right">
 				<div class="resume_item resume_summary">
 					<div class="title">
 						<p class="text-center bold">Summary</p>
@@ -230,91 +232,100 @@
 				</div>
 				<div class="resume_item resume_edu">
 					<div class="title">
-						<p class="text-center bold">EDUCATION</p>
+						<p class="text-center bold">Education</p>
 					</div>
-					<div class="title">
-						<p class="bold">TrueCoders</p>
+					<div class="info">
+						<p class="bold">Advanced Technical Training   (TrueCoders)</p>
 					</div>
-					<div class="title">
-						<p class="bold">Advanced Technical Training</p>
-					</div>
+					<br />
 					<ul>
 						<li>
 							<div class="date">June 2020 - August 2020</div>
 						</li>
 					</ul>
-					<p>Projects created include multiple personal and group-oriented 
-						tasks that involve multiple programming languages over the 
-						course of the program.
+					<p>Projects created include multiple personal and group-oriented tasks that invlove 
+						multiple programming languages over the course of the program.
 					</p>
+					<br />
 					<ul>
+						</li>
 						<li>
 							<div class="data">Over 500 hours of intensive, project-based 
 								training in programming languages and other technical skills.
 							</div>
 						</li>
-					</ul>
-					<ul>
+						<br />
 						<li>
 							<div class="data">These technical skills were developed by building 
 								multiple C# and SQL projects.</div>
 						</li>
-					</ul>
-					<ul>
+						<br />
 						<li>
 							<div class="data">C#, SQL and other projects are tracked using Git and 
 								GitHub for source control. You can access my GitHib account in the 
 								footer below.</div>
 						</li>
 					</ul>
-					<div class="title">
-						<p class="bold">York State College of Pennsylvania</p>
+					<br>
+					<div class="info">
+						<p class="bold">Accounting   (York State College)</p>
 					</div>
-					<div class="title">
-						<p class="">Accounting<br />
-						Coursework: Budget Forecasting, Financial Statement Analysis</p>
-					</div>
+					<br />
 					<ul>
 						<li>
-							<div class="date">September 1992 - December 1994</div>
+							<div class="date">September 1992 - December 1996</div>
 						</li>
 					</ul>
-					<p>Projects created include multiple personal and group-oriented 
-						tasks that involve multiple programming languages over the 
-						course of the program.
-					</p>
-					<ul>
+						<p>Coursework: Budget Forecasting, Financial Statement Analysis
+						</p>
 				</div>
+				<div class="resume_item resume_team">
+					<div class="title">
+						<p class="text-center bold">Team Skills</p>
+					</div>
+						<p>Experienced in creating groups to efectively communicate, plan and collaborate with team members.</p>
+				</div>
+				<div class="resume_item resume_projects">
+					<div class="title">
+						<p class="text-center bold">Projects</p>
+					</div>
+					<div>
+						<ul class="social pt-2">
+							<a href="projects.php" class="text-center btn btn-secondary btn-sm">Some of My Projects</a>
+							<a href="https://github.com/SelinaRothweiler"
+								target="_blank"><i class="fab fa-github-square"></i></a>
+						</ul>
+					</div>
 				</div>
 				<div class="resume_item resume_affil">
 				<div class="title">
 						<p class="text-center bold">Technical Affiliations</p>
 					</div>
-				<ul>
-					<li>
-						<div class="data">Agile and Lean Software Development</div>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<div class="data">Triangle Dev Ops</div>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<div class="data">Tampa-Orlando Software Q&A and Development</div>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<div class="data">SCRUMstudy - #1 Group for Scrum and Agile</div>
-					</li>
-				</ul>
-				<ul>
-					<li>
-						<div class="data">Nova Cloud & Software Engineering Group</div>
-					</li>
-				</ul>
+					<ul>
+						<li>
+							<div class="data">Agile and Lean Software Development</div>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<div class="data">Triangle Dev Ops</div>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<div class="data">Tampa-Orlando Software Q&A and Development</div>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<div class="data">SCRUMstudy - #1 Group for Scrum and Agile</div>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<div class="data">Nova Cloud & Software Engineering Group</div>
+						</li>
+					</ul>
 				</div>
 
 			</div>
@@ -322,6 +333,9 @@
 			
 		</div>
 	</section>
+</body>
+
+<body>
 
 	<!-- Start Jumbotron -->
     <div class="jumbotron py-5 mb-0">
@@ -364,11 +378,17 @@
 					<hr class="light">
 					<h5>Service Areas</h5>
 					<hr class="light">
-					<p>Remote work covers the entire U.S.</p>
-					<p>Online video meetings and content</p>
-					<p>sharing is readily available on several</p>
-					<p>platforms; that run across mobile devices,</p>
-					<p>and desktops. A WiFi connection is all we need.</p>
+					<p class="pl-2 pr-2">Remote work covers the U.S.<br />
+					Online video meetings and content
+					sharing is readily available on several
+					platforms; that run across mobile devices,
+                    and desktops. A WiFi connection is all we need.<br />
+                    We will accomodate all clients who wish to have 
+                    a face-to-face meeting. During this 
+                    health crisis we will take all safety precations 
+                    and abide by all safety procedures; to make sure the 
+                    well being of everyone is safeguarded.
+                    </p>			
 				</div>
 			</div>
 		</div>

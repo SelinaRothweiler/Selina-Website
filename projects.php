@@ -59,7 +59,7 @@
 	<div class="col-12 text-center mt-5">
 		<h1 class="text-dark pt-4">Some of My Projects</h1>
 		<div class="border-top border-primary w-25 mx-auto my-3"></div>
-		<p class="lead">For the love of coding.</p>
+		<p class="lead semi_bold">For the love of coding!!</p>
 	</div>
 
 
@@ -67,10 +67,10 @@
 		<div class="row my-5">
 
 			<div class="col-md-4 my-4">
-				<img src="img/Database2.jpg" aly="" class="w-100">
+				<img src="img/Database2.png" aly="" class="w-100">
 				<h4 class="text-center my-4">CRUD Database Website</h4>
-				<p align="center" class="text-dark">C# | ASP.NET Core MVC | SQL | HTML<br />CSS | JavaScript | Visual Studio<br /></p>
-					<p align="justify"> •	The app takes advantage of depency injection by using an IoC container to handle the newing up of objects.<br />
+				<p align="center" class="text-dark">C# | ASP.NET Core MVC <br /> SQL | HTML | CSS<br />JavaScript | Visual Studio<br /></p>
+					<p align="justify-left"> •	The app takes advantage of dependency injection by using an IoC container to handle the newing up of objects.<br />
 					•	Used a MySQL database on the backend for data storage.<br />
 					•	Created a ProductRepository model with CRUD methods for inserting new products, displaying products, updating products, and deleting products.<br />
 					•	The ProductController links the models to the views and calls the correct views to display depending on the user’s interaction.
@@ -79,31 +79,31 @@
 			</div>
 
 			<div class="col-md-4 my-4">
-				<img src="img/Database.jpg" aly="" class="w-100">
+				<img src="img/Database.png" aly="" class="w-100">
 				<h4 class="text-center my-4">Best Buy CRUD Database Console | Visual Studio </h4>
-				<p align="center" class="text-dark">SQL | C# | .NET Core<br /></p>
-					<p align="justify"> •	The BestBuy database simulates an inventory management system and employee sales records.<br />
+				<p align="center" class="text-dark">SQL | C# | .NET Core</p><br />
+					<p align="justify-left"> •	The BestBuy database simulates an inventory management system and employee sales records.<br />
 						•	Implemented a repository pattern to isolate the data access logic and business logic in order to allow for a more loosely coupled approach to data access from a sample BestBuy database.<br />
 						•	Demonstrated CRUD operations through a console user interface.
 					</p>	
 			</div>
 
 			<div class="col-md-4 my-4">
-				<img src="img/Programming8.jpg" aly="" class="w-100">
+				<img src="img/Programming-API-JSON.png" aly="" class="w-100">
 				<h4 class="text-center my-4">KanyeREST</h4>
-				<p align="center" class="text-dark">C# | .NET Core| JSON | API | Visual Studio<br /></p>
-					<p align="justify"> •	This program will simulate a conversation between Kanye West and Ron Swanson through API calls.<br />
-						•	using the Newtonsoft.JSON NuGet package the program will make a call to the Kanye URL and parse the JSON object into a string called kanyeQuote.<br />
+				<p align="center" class="text-dark">C# | JSON | API<br />.NET Core | Visual Studio</p><br />
+					<p align="justify-left"> •	This program will simulate a conversation between Kanye West and Ron Swanson through API calls.<br />
+						•	Using the Newtonsoft.JSON NuGet package the program will make a call to the Kanye URL and parse the JSON object into a string called kanyeQuote.<br />
 						•	The application makes a call to the Ron Swanson API and parses the JSON Array into a string called swansonQuote.<br />
 						•	The program will “chat” using a loop to simulate the two talking back and forth until the loop finishes execution.
 					</p>	
 			</div>
 
 			<div class="col-md-4 my-4">
-				<img src="img/Taco Bell.png" aly="" class="w-100">
+				<img src="img/C-Sharp-SQL.png" aly="" class="w-100">
 				<h4 class="text-center my-4">Tacobell Geolocator</h4>
-				<p align="center" class="text-dark">C# | .NET Core | SQL | xUnit<br /></p>
-					<p align="justify"> •	Uses a CSV file or a SQL database to populate an IEnumerable<'Tacobell> called locations.<br />
+				<p align="center" class="text-dark">C# | .NET Core | SQL | xUnit</p><br />
+					<p align="justify-left"> •	Uses a CSV file or a SQL database to populate an IEnumerable<'Tacobell> called locations.<br />
 						•	Test-Driven Development using xUnit ensures that invalid or missing data is handled correctly.<br />
 						•	If the data is out of bounds or cannot be parsed, then the parse method returns null.<br />
 						•	Finally, utilizing the Geolocator NuGet package, the program will calculate the two farthest Tacobells.<br />
@@ -111,33 +111,38 @@
 			</div>
 
 			<div class="col-md-4 my-4">
-				<img src="img/Programming2.jpg" aly="" class="w-100">
+				<img src="img/Programming7.png" aly="" class="w-100">
 				<h4 class="text-center my-4">Website Development</h4>
-				<p align="center" class="text-dark">HTML5 | CSS3<br />Bootstrap 4.5 | Visual Studio Code<br /></p>
-					<p align="justify">•	Built a complete responsive Bootstrap website layout.<br />
+				<p align="center" class="text-dark">HTML5 | CSS3 | PHP | JQuery | API<br />Bootstrap 4.5 | Visual Studio Code<br /></p>
+					<p align="justify-left">•	Built a complete responsive Bootstrap website layout.<br />
 						•	Built a top-bar above out menu, a navigation menu using the Bootstrap framework with the navbar component.<br />
-						•	Added my own custom styling to the framework.<br /> 
-						•	Built a custom Bootstrap Carousel Image Slider, a fixed background image section with a modal pop-up HTML, and layout various width and columned sections.<br />
+						•	Added my own custom styling to the framework.<br />
+						•	Created my own logo using Microsoft Word.<br />
+						•	Custom Bootstrap Carousel Image Slider, a fixed background image section with a modal pop-up HTML, and layout various width and columned sections.<br />
 						•	Emoji Navbar Collapse<br />
 						•	Two Column & Bootstrap Jumbotron Sections<br />
 						•	Footer & Socket HTML & CSS<br />			
 						•	Responsive Media Query CSS<br />
-						•	Responsive image gallery<br />
-						•	Responsive Contact Form in HTML/CSS/PHP with email validation, Google Recaptcha, and form submission, that utilizes an API and the if else statement.
+						•	Image gallery set as black and white photos to full color upon hover.<br />
+						•	Contact Form in HTML/CSS/PHP with email validation, Google Recaptcha, and form submission that utilizes an API and the if else statement.
 				</p>
 			</div>
 
 			<div class="col-md-4 my-4">
-				<img src="img/Cafeteria.jpg" aly="" class="w-100">
+				<img src="img/C-Sharp-CafeteriaOrdering.png" aly="" class="w-100">
 				<h4 class="text-center my-4">Cafeteria Ordering</h4>
-				<p align="center" class="text-dark">C# | Windows Form | Visual Studio<br /></p>
-					<p align="justify"> •	This program will simulate a conversation between Kanye West and Ron Swanson through API calls<br />
-						•	using the Newtonsoft.JSON NuGet package the program will make a call to the Kanye URL and parse the JSON object into a string called kanyeQuote<br />
-						•	The application makes a call to the Ron Swanson API and parses the JSON Array into a string called swansonQuote<br />
-						•	The program will “chat” using a loop to simulate the two talking back and forth until the loop finishes execution
+				<p align="center" class="text-dark">C# | Visual Studio | Windows Form Application | .NET Framework</p>
+					<p align="justify-left"> •  Business application for efficient ordering that takes user input.<br />
+						•	Radio buttons and text boxes were used in the Windows Form<br />
+						•	All numerical results are converted to currency utilizing the .ToString() method.<br />
+						•	Set the modifier public for the user selections and math calculation variables and utilized the double data type.<br />
+						•	Used a private modifier to set prices per variable, declared and stored them in C# code.<br />
+						•	Upon user selection the code will add the base price, surcharges for extra items, calculate the sub-total, 
+						calculate sales tax, add the sub-total to sales tax and produce the Grand Total.<br />
+						•	Initialized calculated variables per price, surcharge and quantity to zero for clearing out the form upon user request or after purchase; by adding code to clear 
+						all ckecked items by making them = to false; setting variables back to zero for numerical items and utilized the null string of "" for text boxes.
 					</p>
 			</div>
-
 		</div>
 	</div>
 
@@ -182,11 +187,17 @@
 					<hr class="light">
 					<h5>Service Areas</h5>
 					<hr class="light">
-					<p>Remote work covers the entire U.S.</p>
-					<p>Online video meetings and content</p>
-					<p>sharing is readily available on several</p>
-					<p>platforms; that run across mobile devices,</p>
-					<p>and desktops. A WiFi connection is all we need.</p>
+					<p class="pl-2 pr-2">Remote work covers the U.S.<br />
+					Online video meetings and content
+					sharing is readily available on several
+					platforms; that run across mobile devices,
+                    and desktops. A WiFi connection is all we need.<br />
+                    We will accomodate all clients who wish to have 
+                    a face-to-face meeting. During this 
+                    health crisis we will take all safety precations 
+                    and abide by all safety procedures; to make sure the 
+                    well being of everyone is safeguarded.
+                    </p>					
 				</div>
 			</div>
 		</div>
