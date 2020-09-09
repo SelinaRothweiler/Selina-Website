@@ -79,6 +79,12 @@ body {
   font-size: 2.2rem;
   text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
 }
+.carousel-control-prev .svg-inline--fa {
+  color: white;
+}
+.carousel-control-next .svg-inline--fa {
+  color: white;
+}
 .btn-lg {
   border-radius: 0;
   text-transform: uppercase;
@@ -136,8 +142,8 @@ body {
   width: 100%;
   padding: 0 1px;
 }
-/*Create two equal columns that sits
-next to each other */
+/*Create two responsive equal columns that 
+sit next to each other */
 .row .column {
   width: auto;
   max-width: 33.3%;

@@ -63,7 +63,7 @@
 		<div class="carousel-inner">
 
 			<div class="carousel-item active">
-				<img src="img/Programming.jpg" class="d-block w-100" alt="...">
+				<img src="img/SoftwareEngineering.png" class="d-block w-100" alt="...">
 				<div class="carousel-caption">
 					<div class="container">
 						<div class="row justify-content-center">
