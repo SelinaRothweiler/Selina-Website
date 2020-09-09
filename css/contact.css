@@ -126,7 +126,6 @@ body {
     height: 33px;
     text-align: center;
     cursor: pointer;
-    letter-spacing: 2px;
     margin-left: 8%;
     border:2px solid rgb(190, 190, 190);
     color: rgb(190, 190, 190);
@@ -177,10 +176,10 @@ ul.social li {
   padding-top: 3rem;
 }
 footer .svg-inline--fa {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 footer .svg-inline--fa:hover {
-  color: #68a0d2;
+  color: rgba(211, 44, 183);
 }
 
   

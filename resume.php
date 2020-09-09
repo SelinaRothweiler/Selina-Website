@@ -62,277 +62,188 @@
 </body>
 
 <body class="body2">
-	<section class="resume-section">
-		<div class="resume">
-			<div class="resume_left">
-				<div class="resume_profile">
-					<img src="img/Selina1.jpg" alt="profile_pic">
-				</div>
-				<div class="resume_content">
-					<div class="_resume_item resume_info">
-						<div class="title">
-							<p class="text-center bold">selina rothweiler</p>
-							<p class="text-center regular">Software & Web Development</p>
+	<div class="resume">
+		<div class="row mx-2 my-2 mt-5">
+			<div class="col-lg-4 col-md-4 col-12">
+				<div class="card">
+					<img src="img/Selina-2.jpg" width="100%">
+					<h3 class="pl-3 pt-4">Selina Rothweiler</h3>
+					<hr>
+					<div class="card-body">
+						<h6><i class="fas fa-laptop-code mr-3"></i>Software and Web Developer</h6>
+						<h6><i class="fas fa-map-marked-alt mr-3"></i>Southern NJ & Tampa, FL</h6>
+						<h6><i class="fas fa-phone-square mr-3"></i>(609) 377-0520</h6>
+						<h6><i class="fas fa-envelope mr-3"></i><a href="contact.php" class="text-center regular btn btn-secondary btn-sm">Message Me</a></h6>
+						<hr>
+						<h3><i class="fas fa-code-branch mr-2"></i>Languages</h3>
+						<h6 class="pt-2">C#</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:80%"
+							>80%</div>
 						</div>
-						<ul>
-							<li>
-								<div class="icon"><i class="fas fa-map-marked-alt"></i></div>
-								<div class="data">
-									Southern NJ & Tampa, FL
-								</div>
-							</li>
-							<li>
-								<div class="icon"><i class="fas fa-phone-square"
-									aria-hidden="true"></i></div>
-								<div class="data">
-									(609) 377-0520
-								</div>
-							</li>
-							<li>
-								<div class="icon"><i class="fas fa-envelope"
-									aria-hidden="true"></i></div>
-								<div class="data">
-									<a href="contact.php" class="text-center btn btn-secondary btn-md">Message Me</a>
-								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="resume_item resume_skills">
-						<div class="title">
-							<div class="border-top border-resume mx-auto my-3"></div>
-							<p class="bold">language's</p>
+						<h6 class="pt-2">MySQL</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:60%"
+							>60%</div>
 						</div>
-						<ul>
-							<li>
-								<div class="skill_name">
-									C#
-								</div>
-								<div class="skill_progress">
-									<span style="width: 80%;"></span>
-								</div>
-								<div class="skill_per">80%</div>
-							</li>
-							<li>
-								<div class="skill_name">
-									MySQL
-								</div>
-								<div class="skill_progress">
-									<span style="width: 60%;"></span>
-								</div>
-								<div class="skill_per">60%</div>
-							</li>
-							<li>
-								<div class="skill_name">
-								Javascript
-								</div>
-								<div class="skill_progress">
-									<span style="width: 70%;"></span>
-								</div>
-								<div class="skill_per">70%</div>
-							</li>
-							<li>
-								<div class="skill_name">
-									JQuery
-								</div>
-								<div class="skill_progress">
-									<span style="width: 70%;"></span>
-								</div>
-								<div class="skill_per">70%</div>
-							</li>
-							<li>
-								<div class="skill_name">
-									PHP
-								</div>
-								<div class="skill_progress">
-									<span style="width: 40%;"></span>
-								</div>
-								<div class="skill_per">40%</div>
-							</li>
-							<li>
-								<div class="skill_name">
-									HTML
-								</div>
-								<div class="skill_progress">
-									<span style="width: 75%;"></span>
-								</div>
-								<div class="skill_per">75%</div>
-							</li>
-							<li>
-								<div class="skill_name">
-									CSS
-								</div>
-								<div class="skill_progress">
-									<span style="width: 75%;"></span>
-								</div>
-								<div class="skill_per">75%</div>
-							</li>
-						</ul>
-						<div class="title">
-						<div class="border-top border-resume mx-auto my-3"></div>
-							<p class="bold">Proficiencies</p>
+						<h6 class="pt-2">JavaScript</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:70%"
+							>70%</div>
 						</div>
-						<ul>
-							<li>
-								<div class="skill_prof">
-									Git, LINQ, JSON
-								</div>
-							</li>
-							<li>
-								<div class="skill_prof">
-									REST API (Representational State Transfer - Post, Get, Put, Delete)
-								</div>
-							</li>
-							<li>
-								<div class="skill_prof">
-									TDD-Unit Testing, Dapper ORM
-								</div>
-							</li>
-							<li>
-								<div class="skill_prof">
-									Visual Studio, .NET Core
-								</div>
-							</li>
-							<li>
-								<div class="skill_prof">
-									ASP.NET, .NET Framework
-								</div>
-							</li>
-						</ul>
-						<div class="title">
-						<div class="border-top border-resume mx-auto my-3"></div>
-							<p class="bold">Software</p>
+						<h6 class="pt-2">HTML</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:75%"
+							>75%</div>
 						</div>
-						<ul>
-							<li>
-								<div class="skill_soft">
-									Microsoft: Excel | Word<br />
-									Publisher | Power Point
-								</div>
-							</li>
-							<li>
-								<div class="skill_soft">
-									Outlook, Google Docs
-								</div>
-							</li>
-						</ul>
+						<h6 class="pt-2">CSS</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:75%"
+							>75%</div>
+						</div>
+						<h6 class="pt-2">PHP</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:25%"
+							>25%</div>
+						</div>
+						<hr>
+						<h3><i class="fas fa-globe mt-3 mr-2"></i>Proficiencies</h3>
+						<h6 class="pt-2">Git,  LINQ,  JSON</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:90%"
+							>90%</div>
+						</div>
+						<h6 class="pt-2">REST API (Representational State Transfer: Post, Get, Put, Delete)</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:75%"
+							>75%</div>
+						</div>
+						<h6 class="pt-2">TDD-Unit Testing & Dapper ORM</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:65%"
+							>65%</div>
+						</div>
+						<h6 class="pt-2">ASP.NET & .NET Core</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:75%"
+							>75%</div>
+						</div>
+						<h6 class="pt-2">.NET Framework & Visual Studio</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:75%"
+							>75%</div>
+						</div>
+						<hr>
+						<h3><i class="fab fa-windows mt-3 mr-3"></i>Software<i class="fab fa-google ml-3"></i></h3>
+						<h6 class="pt-2">Microsoft: Excel | Word | Publisher | Power Point</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:90%"
+							>90%</div>
+						</div>
+						<h6 class="pt-2">Outlook | Google Docs</h6>
+						<div class="progress rounded-pill" style=height: 20px;>
+							<div class="progress-bar" style="background-color: #68a0d2; height: 100%; width:75%"
+							>75%</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="resume_right">
-				<div class="resume_item resume_summary">
-					<div class="title">
-						<p class="text-center bold">Summary</p>
-					</div>
-					<p>Self-driven and highly motivated full stack software 
-						developer with a diverse background in object oriented 
-						programming and web development. Exprienced in creating Slack, 
-						Google Meeting and Discord accounts and organizing groups
-						to effectively communicate and collaborate with team members.
-					</p>
-				</div>
-				<div class="resume_item resume_edu">
-					<div class="title">
-						<p class="text-center bold">Education</p>
-					</div>
-					<div class="info">
-						<p class="bold">Advanced Technical Training   (TrueCoders)</p>
-					</div>
-					<br />
-					<ul>
-						<li>
-							<div class="date">June 2020 - August 2020</div>
-						</li>
-					</ul>
-					<p>Projects created include multiple personal and group-oriented tasks that invlove 
-						multiple programming languages over the course of the program.
-					</p>
-					<br />
-					<ul>
-						</li>
-						<li>
-							<div class="data">Over 500 hours of intensive, project-based 
-								training in programming languages and other technical skills.
-							</div>
-						</li>
-						<br />
-						<li>
-							<div class="data">These technical skills were developed by building 
-								multiple C# and SQL projects.</div>
-						</li>
-						<br />
-						<li>
-							<div class="data">C#, SQL and other projects are tracked using Git and 
-								GitHub for source control. You can access my GitHib account in the 
-								footer below.</div>
-						</li>
-					</ul>
-					<br>
-					<div class="info">
-						<p class="bold">Accounting   (York State College)</p>
-					</div>
-					<br />
-					<ul>
-						<li>
-							<div class="date">September 1992 - December 1996</div>
-						</li>
-					</ul>
-						<p>Coursework: Budget Forecasting, Financial Statement Analysis
+
+			<div class="col-lg-8 col-md-8 col-12">
+				<div class="card mt-5 mb-2">
+					<div class="card-body"></div>
+						<h2 class="text-center">Summary</h2>
+						<p class="pt-3 pl-4 pr-4 pb-4">Self-driven and highly motivated full stack software developer with a diverse background
+							in object oriented programming and web development. Experience in creating 
+							Slack, Google Meeting and Discord accounts and organizing groups to effectively 
+							communicate, plan and collaborate with team members and clients.
+						</p>
+				</div>	
+				<div class="card mt-3">
+					<div class="card-body"></div>
+						<h2 class="text-center">Education</h2>
+						<h5 class="pl-3 pt-3"><a href="https://truecoders.io/"target="_blank">TrueCoders</a></h5>
+						<h6 class="pl-3">Advanced Technical Training</h6>
+						<ul>
+							<li>
+								<div class="date"> June 2020 - August 2020</div>
+							</li>
+						</ul>
+						<p class="pl-3 pr-3">Projects created include multiple personal and group oriented tasks that 
+							invlove multiple programming languages over the course of the program.
+						</p>
+						<ul>
+							<li>
+								Over 500 hours of intensive, project-based training in programming 
+								languages and other technical skills.
+							</li>
+							<li>
+								These skills were developed by building multiple C# and SQL projects.
+							</li>
+							<li>
+								C# and SQL projects were tracked using Git and GitHub for source control.
+							</li>
+						</ul>
+						<h6 class="pl-3 pt-3"><a href="https://www.ycp.edu/"target="_blank">York College of Pennsylvania</a></h6>
+						<h6 class="pl-3">Accounting</h6>
+						<ul>
+							<li>
+								<div class="date"> September 1992 - December 1996</div>
+							</li>
+						</ul>
+						<p class="pl-3 pr-3 pb-4">Coursework: Budget Forecasting, Financial Statement Analysis
 						</p>
 				</div>
-				<div class="resume_item resume_team">
-					<div class="title">
-						<p class="text-center bold">Team Skills</p>
-					</div>
-						<p>Experienced in creating groups to efectively communicate, plan and collaborate with team members.</p>
+				<div class="card mt-3">
+					<div class="card-body"></div>
+						<h2 class="text-center">Team Skills</h2>
+						<p class="pt-3 pl-5 pr-3 pb-4">Experienced in creating teams to work toegther
+							and communicate effectively to accomplish tasks and projects and to meet 
+							deadlines for completion.
+						</p>
 				</div>
-				<div class="resume_item resume_projects">
-					<div class="title">
-						<p class="text-center bold">Projects</p>
-					</div>
-					<div>
-						<ul class="social pt-2">
-							<a href="projects.php" class="text-center btn btn-secondary btn-sm">Some of My Projects</a>
-							<a href="https://github.com/SelinaRothweiler"
-								target="_blank"><i class="fab fa-github-square"></i></a>
+				<div class="card mt-3">
+					<div class="card-body"></div>
+						<h2 class="text-center">My Projects</h2>
+						<ul class="social pt-4 pb-5">
+                            <a href="projects.php" class="text-center btn btn-secondary btn-md">Some of My Projects</a>
+                            <a href="https://github.com/SelinaRothweiler"
+                                target="_blank"><i class="fab fa-github-square"></i></a>
+                        </ul>
+				</div>
+				<div class="card mt-3">
+					<div class="card-body"></div>
+						<h2 class="text-center">Technical Affiliations</h2>
+						<ul class="pt-3 ml-5 pb-4">
+							<li>
+								Agile and Lean Software Development
+							</li>
+							<li>
+								Triangle Dev Ops
+							</li>
+							<li>
+								Tampa-Orlando Software Q&A and Devlopment
+							</li>
+							<li>
+								SCRUMstudy - #1 Group for Scrum and Agile
+							</li>
+							<li>
+								Nova Cloud & Software Engineering Group
+							</li>
 						</ul>
-					</div>
 				</div>
-				<div class="resume_item resume_affil">
-				<div class="title">
-						<p class="text-center bold">Technical Affiliations</p>
-					</div>
-					<ul>
-						<li>
-							<div class="data">Agile and Lean Software Development</div>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<div class="data">Triangle Dev Ops</div>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<div class="data">Tampa-Orlando Software Q&A and Development</div>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<div class="data">SCRUMstudy - #1 Group for Scrum and Agile</div>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<div class="data">Nova Cloud & Software Engineering Group</div>
-						</li>
-					</ul>
+				<div class="card mt-3">
+					<div class="card-body"></div>
+						<h2 class="text-center">Prior Work Experience</h2>
+						<p class="pt-3 pl-4 pr-4 pb-4">Business Owner - 22 years owning and operating a full-service customer based business with an emphasis 
+							on Business Development and Management, Consultative Sales, Contracts/Negotiations and Renewals, P&L 
+							Management, Customer Relation Management and Retention, Employee Hiring, Training, Organizing Crews 
+							and Employee Supervision.
+						</p>
 				</div>
-
 			</div>
-
-			
 		</div>
-	</section>
+	</div>
 </body>
 
 <body>
@@ -385,7 +296,7 @@
                     and desktops. A WiFi connection is all we need.<br />
                     We will accomodate all clients who wish to have 
                     a face-to-face meeting. During this 
-                    health crisis we will take all safety precations 
+                    health crisis we will take all safety precautions 
                     and abide by all safety procedures; to make sure the 
                     well being of everyone is safeguarded.
                     </p>			

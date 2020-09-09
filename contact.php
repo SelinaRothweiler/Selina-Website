@@ -158,7 +158,7 @@
                     and desktops. A WiFi connection is all we need.<br />
                     We will accomodate all clients who wish to have 
                     a face-to-face meeting. During this 
-                    health crisis we will take all safety precations 
+                    health crisis we will take all safety precautions 
                     and abide by all safety procedures; to make sure the 
                     well being of everyone is safeguarded.
                     </p>			

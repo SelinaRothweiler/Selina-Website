@@ -113,7 +113,7 @@
 			<div class="col-md-4 my-4">
 				<img src="img/Programming7.png" aly="" class="w-100">
 				<h4 class="text-center my-4">Website Development</h4>
-				<p align="center" class="text-dark">HTML5 | CSS3 | PHP | JQuery | API<br />Bootstrap 4.5 | Visual Studio Code<br /></p>
+				<p align="center" class="text-dark">HTML5 | CSS3 | PHP | JavaScript<br />JQuery | API | Bootstrap 4.5 | VS Code</p>
 					<p align="justify-left">•	Built a complete responsive Bootstrap website layout.<br />
 						•	Built a top-bar above out menu, a navigation menu using the Bootstrap framework with the navbar component.<br />
 						•	Added my own custom styling to the framework.<br />
@@ -124,14 +124,14 @@
 						•	Footer & Socket HTML & CSS<br />			
 						•	Responsive Media Query CSS<br />
 						•	Image gallery set as black and white photos to full color upon hover.<br />
-						•	Contact Form in HTML/CSS/PHP with email validation, Google Recaptcha, and form submission that utilizes an API and the if else statement.
+						•	Contact Form in HTML/CSS/PHP/JavaScript with email validation, Google Recaptcha, and form submission that utilizes an API and the if else statement.
 				</p>
 			</div>
 
 			<div class="col-md-4 my-4">
 				<img src="img/C-Sharp-CafeteriaOrdering.png" aly="" class="w-100">
 				<h4 class="text-center my-4">Cafeteria Ordering</h4>
-				<p align="center" class="text-dark">C# | Visual Studio | Windows Form Application | .NET Framework</p>
+				<p align="center" class="text-dark">C# | VS Code | Windows Form Application | .NET Framework</p>
 					<p align="justify-left"> •  Business application for efficient ordering that takes user input.<br />
 						•	Radio buttons and text boxes were used in the Windows Form<br />
 						•	All numerical results are converted to currency utilizing the .ToString() method.<br />
@@ -194,7 +194,7 @@
                     and desktops. A WiFi connection is all we need.<br />
                     We will accomodate all clients who wish to have 
                     a face-to-face meeting. During this 
-                    health crisis we will take all safety precations 
+                    health crisis we will take all safety precautions 
                     and abide by all safety procedures; to make sure the 
                     well being of everyone is safeguarded.
                     </p>					

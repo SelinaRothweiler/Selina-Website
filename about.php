@@ -56,33 +56,28 @@
     <!-- End Navigation -->
     
     <!-- Main Page Heading -->
-    <section>
+    <section class="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="column">
-                    <img src="img/Selina1.jpg" /> <!--class="img-fluid">-->
-                    <!-- <a href="img/Mountains2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-3"> -->
-                    <!--</a>-->
-                    <img src="https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
-                    <img src="https://images.pexels.com/photos/2419375/pexels-photo-2419375.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                    <img src="img/Banff-National-Park.jpg" />
-                    <img src="img/City.jpg" />
-                </div>
-                
-                <div class="column"> <!--row md-4">-->
                     <img src="img/cat.jpg" />
-                    <img src="img/Beach.jpg" />
-                    <img src="img/Mountains.jpg" />
-                    <img src="img/Selina3.jpg" />
+                    <img src="img/Banff-National-Park.jpg" />
+                    <img src="img/Selina1.jpg" />
                     <img src="img/Mountains2.jpg" />
-                </div>
-                    
-                <div class="column">
-                    <img src="img/Selina2.jpg" />
                     <img src="img/Waterfall-Southern-Iceland.jpg.png" />
                     <img src="https://images.pexels.com/photos/2360569/pexels-photo-2360569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-                    <img src="img/Waterfall-BaffinIsland.jpg" />
+                    <img src="img/Mountains.jpg" />
+                    <img src="https://images.pexels.com/photos/2419375/pexels-photo-2419375.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                </div>
+                
+                <div class="column">
+                    <img src="img/Selina3.jpg" />
                     <img src="https://images.pexels.com/photos/3546429/pexels-photo-3546429.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+                    <img src="img/City.jpg" />
+                    <img src="img/Selina2.jpg" />
+                    <img src="img/Waterfall-BaffinIsland.jpg" />
+                    <img src="https://images.pexels.com/photos/3586966/pexels-photo-3586966.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                    <img src="img/Beach.jpg" />
                 </div>
             </div>
         </div>
@@ -156,7 +151,7 @@
                     and desktops. A WiFi connection is all we need.<br />
                     We will accomodate all clients who wish to have 
                     a face-to-face meeting. During this 
-                    health crisis we will take all safety precations 
+                    health crisis we will take all safety precautions 
                     and abide by all safety procedures; to make sure the 
                     well being of everyone is safeguarded.
                     </p>			
