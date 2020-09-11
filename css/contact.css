@@ -82,6 +82,9 @@ body {
     margin-left: 20%;
     grid-template-columns: auto auto;
   }
+  .form p {
+    color: #a94442;
+  }
  
   input{
       padding: 10px;
@@ -130,7 +133,6 @@ body {
     border:2px solid rgb(190, 190, 190);
     color: rgb(190, 190, 190);
   }
-
   .submit:hover{
     border: 1px solid #fff;
     color: #68a0d2;

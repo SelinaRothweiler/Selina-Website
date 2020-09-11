@@ -189,6 +189,11 @@ sit next to each other */
   }
 }
 
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .semi_bold {
   font-weight: 600;
   font-size: 20px;
@@ -221,7 +226,7 @@ hr {
   margin-bottom: 1rem;
 }
 .card-body .svg-inline--fa {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-left: 0rem;
   color: rgba(211, 44, 183);
 }
@@ -254,6 +259,9 @@ ul.social {
 }
 .svg-inline--fa:hover {
   color: rgba(211, 44, 183);
+}
+.download {
+  width: 100%;
 }
 
 /*============= FOOTER =============*/
@@ -343,20 +351,6 @@ footer .svg-inline--fa:hover {
   .column {
     flex: 50%;
     max-width: 50%;
-  }
-}
-/*  */
-@media (max-width: 991.98px) {
-  .resume_content {
-    width: 100%;
-    overflow: inherit;
-  }
-  .resume_profile img {
-    width: 100%;
-  }
-  .resume .card .bold {
-    width: 95%;
-    margin-bottom: 10%;
   }
 }
 

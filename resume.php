@@ -32,7 +32,7 @@
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-				<a href="index.php" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
+				<a href="home" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
 					alt="Logo" title="logo"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -42,11 +42,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="projects.php" class="nav-link">Projects</a></li>
-					<li class="nav-item"><a href="resume.php" class="nav-link active">Resume</a></li>					
-					<li class="nav-item"><a href="contact.php" class="nav-link">Contact Me</a></li>
+					<li class="nav-item"><a href="home" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="resume" class="nav-link active">Resume</a></li>					
+					<li class="nav-item"><a href="contact" class="nav-link">Contact Me</a></li>
 				</ul>
 			</div>
 		</div>
@@ -73,7 +73,7 @@
 						<h6><i class="fas fa-laptop-code mr-3"></i>Software and Web Developer</h6>
 						<h6><i class="fas fa-map-marked-alt mr-3"></i>Southern NJ & Tampa, FL</h6>
 						<h6><i class="fas fa-phone-square mr-3"></i>(609) 377-0520</h6>
-						<h6><i class="fas fa-envelope mr-3"></i><a href="contact.php" class="text-center regular btn btn-secondary btn-sm">Message Me</a></h6>
+						<h6><i class="fas fa-envelope mr-3"></i><a href="contact" class="text-center regular btn btn-secondary btn-sm">Message Me</a></h6>
 						<hr>
 						<h3><i class="fas fa-code-branch mr-2"></i>Languages</h3>
 						<h6 class="pt-2">C#</h6>
@@ -206,7 +206,7 @@
 					<div class="card-body"></div>
 						<h2 class="text-center">My Projects</h2>
 						<ul class="social pt-4 pb-5">
-                            <a href="projects.php" class="text-center btn btn-secondary btn-md">Some of My Projects</a>
+                            <a href="projects" class="text-center btn btn-secondary btn-md">Some of My Projects</a>
                             <a href="https://github.com/SelinaRothweiler"
                                 target="_blank"><i class="fab fa-github-square"></i></a>
                         </ul>
@@ -241,6 +241,9 @@
 							and Employee Supervision.
 						</p>
 				</div>
+				<div class="download">
+					<a href="data/SelinaR-Resume-Programming.pdf" class="text-center bold mt-3 btn btn-secondary btn-md" download="SelinaR">Download Resume</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -252,7 +255,7 @@
     <div class="jumbotron py-5 mb-0">
         <div class="container">
             <div class="row justify-content-center">
-                <a href="contact.php" class="btn btn-primary btn-lg">Contact Me Today</a>
+                <a href="contact" class="btn btn-primary btn-lg">Contact Me Today</a>
             </div>
         </div>
     </div>
@@ -323,15 +326,6 @@
 	<script src="js/popper.min.js"></script>
 	<!-- Font Awesome -->
     <script src="js/all.min.js"></script>
-    <!-- Lightbox -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-    <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
-
-    </script>
     <!-- End Script Source Files -->
 
 </body>

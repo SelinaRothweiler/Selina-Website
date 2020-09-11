@@ -32,7 +32,7 @@
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-				<a href="index.php" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
+				<a href="home" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
 					alt="Logo" title="logo"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -42,11 +42,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="projects.php" class="nav-link active">Projects</a></li>
-					<li class="nav-item"><a href="resume.php" class="nav-link">Resume</a></li>					
-					<li class="nav-item"><a href="contact.php" class="nav-link">Contact Me</a></li>
+					<li class="nav-item"><a href="home" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="projects" class="nav-link active">Projects</a></li>
+					<li class="nav-item"><a href="resume" class="nav-link">Resume</a></li>					
+					<li class="nav-item"><a href="contact" class="nav-link">Contact Me</a></li>
 				</ul>
 
 			</div>
@@ -150,7 +150,7 @@
     <div class="jumbotron py-5 mb-0">
         <div class="container">
             <div class="row justify-content-center">
-                <a href="contact.php" class="btn btn-primary btn-lg">Contact Me Today</a>
+                <a href="contact" class="btn btn-primary btn-lg">Contact Me Today</a>
             </div>
         </div>
     </div>
@@ -222,14 +222,14 @@
 	<!-- Font Awesome -->
     <script src="js/all.min.js"></script>
     <!-- Lightbox -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
-    <script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>-->
+    <!--<script>
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
                 event.preventDefault();
                 $(this).ekkoLightbox();
             });
 
-    </script>
+    </script>-->
     <!-- End Script Source Files -->
 
 </body>

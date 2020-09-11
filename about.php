@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">-->
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?
 		family=Montserrat:300,400,500,600,700&display=swap" 
@@ -33,7 +33,7 @@
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-				<a href="index.php" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
+				<a href="home" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
 					alt="Logo" title="logo"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -43,11 +43,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.php" class="nav-link active">About</a></li>
-					<li class="nav-item"><a href="projects.php" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="resume.php" class="nav-link">Resume</a></li>                    
-					<li class="nav-item"><a href="contact.php" class="nav-link">Contact Me</a></li>
+					<li class="nav-item"><a href="home" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about" class="nav-link active">About</a></li>
+					<li class="nav-item"><a href="projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="resume" class="nav-link">Resume</a></li>                    
+					<li class="nav-item"><a href="contact" class="nav-link">Contact Me</a></li>
 				</ul>
 
 			</div>
@@ -107,7 +107,7 @@
     <div class="jumbotron py-5 mb-0">
         <div class="container">
             <div class="row justify-content-center">
-                <a href="contact.php" class="btn btn-primary btn-lg">Contact Me Today</a>
+                <a href="contact" class="btn btn-primary btn-lg">Contact Me Today</a>
             </div>
         </div>
     </div>
@@ -168,8 +168,6 @@
         <p>&copy; <a href="https://SelinaRoth.com" target="_blank">SelinaRoth.com</a></p>
     </div>
     <!-- End Socket -->
-    
-    <!-- <div class="container my-5"></div> -->
 
     <!-- jQuery -->
 	<script src="js/jquery-3.5.1.min.js"></script>

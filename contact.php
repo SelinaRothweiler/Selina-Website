@@ -10,12 +10,15 @@
 	<!-- Bootstrap 4.5 CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
-	<!--<link rel="stylesheet" href="css/style.css">-->
 	<link rel="stylesheet" href="css/contact.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?
 		family=Montserrat:300,400,500,600,700&display=swap" 
 		rel="stylesheet">
+
+
+
+
 </head>
 
 <body>
@@ -34,7 +37,7 @@
 	<!-- Navigation -->
 	<nav class="navbar bg-light navbar-light navbar-expand-lg">
 		<div class="container">
-				<a href="index.php" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
+				<a href="home" class="navbar-brand"><img src="img/Logo-FullNameTransparent.png" 
 					alt="Logo" title="logo"></a>
 			
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -44,11 +47,11 @@
 
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="projects.php" class="nav-link">Projects</a></li>
-					<li class="nav-item"><a href="resume.php" class="nav-link">Resume</a></li>					
-					<li class="nav-item"><a href="contact.php" class="nav-link active">Contact Me</a></li>
+					<li class="nav-item"><a href="home" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="resume" class="nav-link">Resume</a></li>					
+					<li class="nav-item"><a href="contact" class="nav-link active">Contact Me</a></li>
 				</ul>
 			</div>
 		</div>
@@ -62,10 +65,10 @@
 			<h2>Contact Me</h2>
 			<p>Use the contact form below and I will respond promptly.</p>
 			<div class="contactForm">					
-				<form action="send-mail.php" method="POST" onsubmit="return submitUserForm();" enctype="multipart/form-data">
+				<form action="send-mail" method="POST" onsubmit="return submitUserForm();" enctype="multipart/form-data">
 					<!-- ReCAPTCHA -->
 					<script src="https://www.google.com/recaptcha/api.js?onload=recaptchaRender" async defer></script>
-
+					
 					<input name="name_first" type="text" placeholder="First Name: " required>
 					<input name="name_last" type="text" placeholder="Last Name: " required>
 					<input name="phone" type="tel" placeholder="Phone Number: " required>
@@ -76,8 +79,11 @@
 					<div id="g-recaptcha-error"></div>
 					<button type="submit" value="submit" class="submit">Send Message</button>
 				</form>
-				<script>				 
+
 				
+				<script>
+				/* Google Recaptcha Submit and Verify */
+								 
 				function submitUserForm() {
 					var response = grecaptcha.getResponse();
 					if(response.length == 0) {
@@ -87,7 +93,7 @@
 					else
 					return true;
 				}
-
+				
 				function verifyCaptcha() {
 					document.getElementById('g-recaptcha-error').innerHTML = '';
 				}
@@ -182,19 +188,8 @@
 	<script src="js/jquery-3.5.1.min.js"></script>
 	<!-- Bootstrap 4.5 JS -->
 	<script src="js/bootstrap.min.js"></script>
-	<!-- Popper JS -->
-	<!--<script src="js/popper.min.js"></script>-->
 	<!-- Font Awesome -->
     <script src="js/all.min.js"></script>
-    <!-- Lightbox -->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>-->
-    <!--<script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
-    </script>-->
-    <!-- End Script Source Files -->
 	
 </body>
 </html>
