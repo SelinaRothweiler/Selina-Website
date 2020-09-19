@@ -27,7 +27,7 @@
 	<div class="top-bar">
 		<div class="container">
 			<div class="col-12 text-right">
-				<p><a href="tel:+16093770520">Contact Me</a></p>
+				<p><a href="tel:+MyPhoneNumber">Contact Me</a></p>
 			</div>
 		</div>
 	</div>
@@ -75,7 +75,7 @@
 					<input name="email" type="email" placeholder="Email Address: " required>
 					<input name="subject" type="text" placeholder="Subject: " required>
 					<textarea name="message" id="message" placeholder="Message " rows="5" required></textarea>
-					<div class="g-recaptcha" data-sitekey="6Le-O8MZAAAAAG7LaBAqNsoMTd9977CTtBsamdT2" data-callback="verifyCaptcha"></div>
+					<div class="g-recaptcha" data-sitekey="????????" data-callback="verifyCaptcha"></div>
 					<div id="g-recaptcha-error"></div>
 					<button type="submit" value="submit" class="submit">Send Message</button>
 				</form>
