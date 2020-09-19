@@ -22,7 +22,7 @@
 	<div class="top-bar">
 		<div class="container">
 			<div class="col-12 text-right">
-				<p><a href="tel:+16093770520">Contact Me</a></p>
+				<p><a href="tel:MyPhoneNumber">Contact Me</a></p>
 			</div>
 		</div>
 	</div>
@@ -271,8 +271,8 @@
 					<img src="img/Logo-Transparent-Bigger.png">
 					<p>All about software and web development.</p>
 					<hr class="light">
-					<p>(609) 377-0520</p>
-					<p>Selina@SelinaRoth.com</p>
+					<p>MyPhoneNumber</p>
+					<p>MyEmail</p>
 				</div>
 				<div class="col-md-4 mt-5">
 					<hr class="light">
