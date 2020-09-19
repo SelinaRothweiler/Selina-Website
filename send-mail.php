@@ -15,7 +15,7 @@
                   "Subject: $subject\n".
                   "Message: $message\n";
     
-    $to = "selina@selinaroth.com";
+    $to = "My@Email.com";
     $headers = "From: $email_from \r\n";
     $headers .= "Reply-To: $email \r\n";
     
